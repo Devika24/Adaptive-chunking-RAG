@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Large language model",
+    "text": "A large language model (LLM) is a language model characterized by its large size. Their size is enabled by AI accelerators, which are able to process vast amounts of text data, mostly scraped from the Internet. The artificial neural networks which are built can contain from tens of millions and up to tens of billions of weights and are (pre-)trained using self-supervised learning and semi-supervised learning. As of 2023, most LLMs have these characteristics and are known as generative pre-trained transformers (GPTs)."
+  },
+  {
+    "title": "Retrieval-augmented generation",
+    "text": "Retrieval-augmented generation (RAG) is a natural language processing (NLP) technique that combines the strengths of both pre-trained language models and information retrieval systems. It is used to improve the quality and factuality of generated text by incorporating external knowledge from a large corpus of documents."
+  },
+  {
+    "title": "Semantic similarity",
+    "text": "Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning or semantic content as opposed to lexicographical similarity. These are mathematical tools used to estimate the strength of the semantic relationship between units of language, concepts or instances, through a numerical description obtained according to the comparison of information supporting their meaning or describing their nature."
+  }
+]

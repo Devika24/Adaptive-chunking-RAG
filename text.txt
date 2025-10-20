@@ -1,0 +1,39 @@
+adaptive-chunking-rag/
+├── 📄 README.md                          # Main documentation (CRITICAL)
+├── 📄 requirements.txt                   # Dependencies (CRITICAL)
+├── 📄 LICENSE                           # MIT License (RECOMMENDED)
+├── 📄 .gitignore                        # Ignore unnecessary files
+├── 📄 setup.py                          # Package installation (OPTIONAL)
+│
+├── 🔧 src/
+│   ├── __init__.py                      # Make src a package
+│   ├── chunking.py                      # Core adaptive chunking logic
+│   ├── retrieval.py                     # RAG system with FAISS
+│   ├── embeddings.py                    # Embedding management
+│   └── evaluation.py                    # Performance benchmarking
+│
+├── 🎮 demo/
+│   ├── __init__.py
+│   └── app.py                          # Streamlit interactive demo
+│
+├── 🧪 tests/
+│   ├── __init__.py
+│   ├── test_chunking.py                # Unit tests for chunking
+│   └── test_retrieval.py               # Unit tests for retrieval
+│
+├── 📊 examples/
+│   ├── demo.ipynb                      # Jupyter notebook examples
+│   └── basic_usage.py                  # Simple usage examples
+│
+├── 📚 data/
+│   ├── wikipedia_sample.json           # Sample dataset for testing
+│   └── sample_documents.txt            # Example documents
+│
+├── 📈 results/                         # Generated results & visuals
+│   ├── chunking_evaluation.json
+│   ├── retrieval_performance.png
+│   ├── semantic_vs_fixed.png
+│   └── performance_metrics.json
+│
+└── 🔧 config/
+    └── default_config.yaml             # Configuration file (OPTIONAL)
