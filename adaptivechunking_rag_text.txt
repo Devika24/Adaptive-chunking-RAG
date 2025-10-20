@@ -1,0 +1,14 @@
+adaptive-chunking-rag/
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── chunking.py
+│   ├── embeddings.py
+│   └── retrieval.py
+├── data/
+│   └── wikipedia_sample.json
+├── results/
+│   ├── chunking_evaluation.json
+│   └── retrieval_performance.png
+└── examples/
+    └── demo.ipynb
